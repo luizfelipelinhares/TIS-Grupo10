@@ -1,7 +1,6 @@
-# Trabalho Interdisciplinar: Aplicações para Processos de Negócios - Grupo 10
+# TIS - Grupo 10: Controle de Estoque L&R Kits e Freios
 
-## Controle de Estoque - L&R Kits e Freios
-### Integrantes
+## Integrantes
 - Luiz Felipe Linhares Vieira (lzfdev@gmail.com)
 - Henrique Taite Mendes (henriquetaite@gmail.com)
 - Nathan Filipe Carvalho Cota (nathancarvalhocota@gmail.com)
@@ -35,15 +34,15 @@ Os processos do negócio são realizados pelo dono da empresa, pelos funcionári
 ### Compra de mercadorias
 A compra de mercadorias é um processo de suporte e garante que o estoque esteja sempre abastecido. O processo ocorre da seguinte maneira:
 
-1. **Contato com o fornecedor e solicitar do orçamento:**
+1. **Contato com o fornecedor e solicitar do orçamento**  
 O funcionário do administrativo entra em contato com o fornecedor e envia um orçamento das mercadorias que pretende comprar.
-2. **Negociação dos preços:**
+2. **Negociação dos preços**  
 O funcionário administrativo negocia o preço das mercadorias com o fornecedor.
-3. **Confirmar compra:**
+3. **Confirmar compra**  
 O funcionário do administrativo confirma a compra e realiza o pedido com o fornecedor.
-4. **Receber mercadorias**
+4. **Receber mercadorias**  
 A funcionária do almoxarifado recebe, contabiliza, e armazena as mercadorias recebidas no estoque.
-5. **Registrar entrada no estoque:**
+5. **Registrar entrada no estoque**  
 O funcionário do setor administrativo registra a entrada das mercadorias na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel.
 
 ### Venda de mercadorias
