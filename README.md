@@ -6,8 +6,8 @@
 - Nathan Filipe Carvalho Cota (nathancarvalhocota@gmail.com)
 - Bruno Alexandre Anastácio De Almeida (brunoanastacio07@gmail.com)
 
-##### Instituto de Informática e Ciências Exatas – Pontifícia Universidade Católica de Minas Gerais (PUC MINAS)
-##### Belo Horizonte – MG – Brasil
+**Instituto de Informática e Ciências Exatas – Pontifícia Universidade Católica de Minas Gerais (PUC MINAS)  
+Belo Horizonte – MG – Brasil**
 
 ## Resumo 
 *A empresa L&R Kits e Freios é uma pequena distribuidora de peças e kits para freios de caminhão, e estes últimos são montados pela própria organização com as peças que têm em estoque. Para fazer os cadastros e emissão de orçamentos para seus clientes, a L&R utiliza o programa Excel que possui certas limitações, que não deixam o serviço tão efetivo quanto poderia ser, além de não possuir qualquer nível de segurança, assim sendo muito suscetível a erros manuais dos usuários.
@@ -36,57 +36,53 @@ A compra de mercadorias é um processo de suporte e garante que o estoque esteja
 
 1. **Contato com o fornecedor e solicitar do orçamento**  
 O funcionário do administrativo entra em contato com o fornecedor e envia um orçamento das mercadorias que pretende comprar.
-2. **Negociação dos preços**  
+
+2. **Negocias os preços**  
 O funcionário administrativo negocia o preço das mercadorias com o fornecedor.
+
 3. **Confirmar compra**  
 O funcionário do administrativo confirma a compra e realiza o pedido com o fornecedor.
+
 4. **Receber mercadorias**  
 A funcionária do almoxarifado recebe, contabiliza, e armazena as mercadorias recebidas no estoque.
+
 5. **Registrar entrada no estoque**  
 O funcionário do setor administrativo registra a entrada das mercadorias na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel.
 
 ### Venda de mercadorias
 A venda de mercadorias é um processo primário e a fonte de receita de toda a empresa. O processo ocorre da seguinte maneira:
 
-1. Contato do cliente com a funcionária do setor de vendas:
+1. **Contato do cliente com a funcionária do setor de vendas**  
 O cliente entra em contato com o setor de vendas por meio de email, Whatsapp ou telefone, solicitando um orçamento das mercadorias.
 
-2. Verificar a disponibilidade no estoque:
+2. **Verificar a disponibilidade no estoque**  
 A funcionária do setor de vendas verifica a disponibilidade e o preço das mercadorias no estoque através de uma planilha no Excel e gera o orçamento solicitado pelo cliente por meio da mesma planilha, utilizando um macro VBA.
 
-1. 3. Emitir o orçamento:
+3. **Emitir o orçamento**  
 A funcionária do setor de vendas gera o orçamento solicitado pelo cliente por meio de uma planilha no excel, utilizando um macro VBA.
 
-1. 4. Confirmação do pedido:
+4. **Confirmar o pedido**  
 O cliente confirma o pedido e o meio de entrega.
 
-5. Separação das mercadorias:
+5. **Separar as mercdorias**  
 A funcionária do almoxarifado separa e embala as mercadorias para a coleta da transportadora.
 
-6. Registrar saída do estoque:
+6. **Registrar saída do estoque**  
 Após a confirmação do pedido e separação das mercadorias, o funcionário administrativo realiza o registro do movimento de saída na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel.
 
 ### Gerenciamento e monitoramento do estoque
 O monitoramento de estoque é um processo gerencial importante para garantir a disponibilidade das mercadorias no estoque e evitar compras desnecessárias. O gerenciamento do estoque na empresa é feito através de uma planilha no Excel. O processo é realizado pelo dono da empresa e pelo funcionário do administrativo, e compreende os seguinte subprocessos:
 
-Cadastro de produtos
+1. **Cadastrar produtos** 
 O dono da empresa ou funcionário do administrativo registra novos produtos na aba “Estoque” da planilha “Controle de Estoque” no Excel para habilitar futuras entradas e saídas na aba “Registro de Movimentos”.
 
-Criação de Kits:
-A funcionária do almoxarifado separa Kits com as mercadorias disponíveis no estoque, para que mais mercadorias sejam vendidas simultaneamente.
-O funcionário do setor administrativo registra o movimento de entrada dos Kits no estoque na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel, ao mesmo tempo que registra o movimento de saída das mercadorias utilizadas para montar o Kit.
+2. **Criar kits**  
+A funcionária do almoxarifado separa Kits com as mercadorias disponíveis no estoque, e então o funcionário do setor administrativo registra o movimento de entrada dos Kits no estoque na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel, ao mesmo tempo que registra o movimento de saída das mercadorias utilizadas para montar o Kit.
 
-Verificação do estoque:
+3. **Verificar o estoque**  
 O dono da empresa e o funcionário do setor administrativo monitoram a quantidade de mercadorias disponíveis no estoque, utilizando a aba “Estoque” da planilha “Controle de Estoque” no Excel para verificar se é necessário abastecer o estoque.
 
-
-
-
-
-
-
-
-3. Modelagem do Processo de Negócio
+## 3. Modelagem do Processo de Negócio
 Os processos identificados abaixo foram escolhidos para otimização por serem processos manuais repletos de retrabalho, com pouca segurança, grande margem de erro, compartilharem da mesma ferramenta (Excel) utilizada para sua execução e possuírem subprocessos comuns entre si que podem ser eliminados e otimizados através da implementação da ferramenta proposta neste trabalho.
 Cadastrar de produtos
 Emitir orçamento para compras
@@ -96,8 +92,7 @@ Registrar movimento de saída do estoque
 Verificar disponibilidade no estoque
 Criar Kits
 
-
-3.1. Modelagem da situação atual (Modelagem AS IS)
+### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
 Cadastrar produtos
 
@@ -137,7 +132,7 @@ Disponível em: https://modeler.cloud.camunda.io/share/d7c86aaa-d390-4870-961c-a
 
 
 
-3.2. Análise dos processos
+### 3.2. Análise dos processos
 Não conformidades gerais
 Segurança dos dados: a empresa utiliza o Excel como “base de dados” e ferramenta para a gestão do estoque, e este não possui qualquer segurança ao abrir a planilha, backup e proteção contra a exclusão do arquivo em que os dados estão armazenados.
 Integridade das informações: muitos dados ficam expostos ao abrir a planilha e ficam sujeitos a alterações indesejadas tanto em registros antigos quanto nas fórmulas da planilha que podem afetar os dados passados e futuros.
@@ -148,7 +143,7 @@ Tempo: Algumas atividades levam tempo demais para serem executadas e são muito 
 
 
 
-3.3.  Desenho dos Processos (TO BE) 
+### 3.3.  Desenho dos Processos (TO BE) 
 Os processos abaixo foram modelados novamente representando o uso da ferramenta proposta para resolver as não conformidades descritas no tópico acima:
 Segurança dos dados: com uma aplicação web armazenada em nuvem, os dados ficam seguros, com backups recorrentes e protegidos contra exclusão e corrupção.
 Integridade das informações: os dados são apenas exibidos no sistema de maneira segura, sem que possam sofrer alterações a qualquer momento, e não ficam dependentes de fórmulas que podem ser alteradas por engano ou falta de conhecimento do usuário, diferente do que acontece no Excel.
@@ -182,49 +177,3 @@ Disponível em: https://modeler.cloud.camunda.io/share/0ebc45d3-bed1-4533-a1aa-c
 Criar kits
 
 Disponível em: https://modeler.cloud.camunda.io/share/1b2a090d-35c2-47b5-a519-dca00eb1339a
-
-4. Projeto da Solução
-
-4.1. Protótipos de telas
-A partir das atividades de usuário identificadas na seção anterior, elabore o protótipo de tela de cada uma delas.
-
-4.1.1. Processo x: [nome da tarefa]
-Atividade
-Protótipo
-Nome
-[Nome da propriedade ou campo]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4.2. Diagrama Entidade e Relacionamento (DER)
-O desenvolvimento da solução proposta requer a existência de bases de dados que permitam efetuar os cadastros de dados e controles associados aos processos identificados, assim como recuperações.
-Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um modelo, na ferramenta visual indicada na disciplina, que contemple todas as entidades e atributos associados às atividades dos processos identificados. Deve ser gerado um único DER que suporte todos os processos escolhidos, visando, assim, uma base de dados integrada. O modelo deve contemplar, também, o controle de acesso de usuários (partes interessadas dos processos) de acordo com os papéis definidos nos modelos do processo de negócio.
-Colem aqui o DER confeccionado.
-
-4.3. Tecnologias  
-Descreva qual (is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.  Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-As principais tecnologias utilizadas serão referentes ao desenvolvimento do software, que será realizado pela linguagem C# através da IDE Visual Studio 2022 (ou versões anteriores). O framework que será utilizado com a linguagem será o Blazor, que é uma estrutura web que permite aos desenvolvedores criar interfaces de usuário web baseadas em componentes, usando C# e HTML. Também será utilizado um sistema de cadastro e login terceirizado, chamado OpenID, que nesse caso será fornecido  através de emails da Microsoft e sua plataforma.
-(FALTAM ACRESCENTAR OUTRAS POSSÍVEIS TECNOLOGIAS E A FIGURA REPRESENTANDO A RELAÇÃO COM O USUÁRIO)
-
-5. Uso Software
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
-
-6. Conclusão
-Apresentem, aqui, a conclusão do trabalho, que deve conter uma síntese dos principais resultados obtidos com a melhoria dos processos, uma discussão das limitações da solução proposta e sugestões de novas linhas de estudo. 
-REFERÊNCIAS
-Como um projeto de software não requer revisão bibliográfica, a inclusão das referências não é obrigatória. No entanto, caso vocês desejem incluir referências relacionadas às tecnologias, padrões, ou metodologias empregadas no trabalho, relacione-as de acordo com a ABNT.
-Verifiquem no link abaixo como devem ser as referências no padrão ABNT:
-http://www.pucminas.br/imagedb/documento/DOC_DSC_NOME_ARQUI20160217102425.pdf
