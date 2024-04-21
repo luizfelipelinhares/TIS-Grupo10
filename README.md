@@ -1,69 +1,73 @@
-# TIS-Grupo10
-Trabalho Interdisciplinar: Aplicações para Processos de Negócios - Grupo 10
+# Trabalho Interdisciplinar: Aplicações para Processos de Negócios - Grupo 10
 
+## Controle de Estoque - L&R Kits e Freios
+### Integrantes
+- Luiz Felipe Linhares Vieira (lzfdev@gmail.com)
+- Henrique Taite Mendes (henriquetaite@gmail.com)
+- Nathan Filipe Carvalho Cota (nathancarvalhocota@gmail.com)
+- Bruno Alexandre Anastácio De Almeida (brunoanastacio07@gmail.com)
 
-TRABALHO INTERDISCIPLINAR: APLICAÇÕES PARA PROCESSOS DE NEGÓCIOS
+##### Instituto de Informática e Ciências Exatas – Pontifícia Universidade Católica de Minas Gerais (PUC MINAS)
+##### Belo Horizonte – MG – Brasil
 
-Henrique Taite Mendes (henriquetaite@gmail.com)
-Luiz Felipe Linhares Vieira (lzfdev@gmail.com)
-Nathan Filipe Carvalho Cota (nathancarvalhocota@gmail.com)
-Bruno Alexandre Anastácio De Almeida (brunoanastacio07@gmail.com)
-Instituto de Informática e Ciências Exatas – Pontifícia Universidade Católica de Minas Gerais (PUC MINAS)
-Belo Horizonte – MG – Brasil
+## Resumo 
+*A empresa L&R Kits e Freios é uma pequena distribuidora de peças e kits para freios de caminhão, e estes últimos são montados pela própria organização com as peças que têm em estoque. Para fazer os cadastros e emissão de orçamentos para seus clientes, a L&R utiliza o programa Excel que possui certas limitações, que não deixam o serviço tão efetivo quanto poderia ser, além de não possuir qualquer nível de segurança, assim sendo muito suscetível a erros manuais dos usuários.
+Diante disso, consideramos viável e muito útil criar um projeto de uma aplicação WEB para gerenciar o controle de estoque e geração de orçamentos, de forma otimizada e segura, além de trazer outras possíveis funções e benefícios para a organização em questão. Será possível emitir orçamentos e fazer o controle de estoque com mais agilidade, segurança e efetividade.*
 
-Resumo. A empresa L&R Kits e Freios é uma pequena distribuidora de peças e kits para freios de caminhão, e estes últimos são montados pela própria organização com as peças que têm em estoque. Para fazer os cadastros e emissão de orçamentos para seus clientes, a L&R utiliza o programa Excel que possui certas limitações, que não deixam o serviço tão efetivo quanto poderia ser, além de não possuir qualquer nível de segurança, assim sendo muito suscetível a erros manuais dos usuários.
-	Diante disso, consideramos viável e muito útil criar um projeto de uma aplicação WEB para gerenciar o controle de estoque e geração de orçamentos, de forma otimizada e segura, além de trazer outras possíveis funções e benefícios para a organização em questão. Será possível emitir orçamentos e fazer o controle de estoque com mais agilidade, segurança e efetividade. 
-
-1. Introdução
+## 1. Introdução
 De acordo com artigo do site https://www.mindtek.com.br/, em 2022, 90% das empresas ainda utilizavam o Excel como ferramenta para realizar orçamentos, planejamentos e previsões de operações. Muito disso provavelmente se deve ao fato de ser um programa tradicional e pouco oneroso. No entanto, por mais que o Excel apresente uma infinidade de recursos, existem meios mais eficientes e completos de se realizar as atividades de planejamento, orçamentos e controles em geral de uma empresa. 
 Segundo artigo do site https://gdoor.com.br/, o Excel possui as seguintes limitações/problemas: exige atualização manual constante, atrasando o trabalho; é muito vulnerável à ataques; não têm recursos para armazenar e integrar uma quantidade grande de dados; não integra os setores da organização, ou seja, não existe a propriedade de concorrência para controlar atualização do documento; vulnerabilidade à perda de dados.
 Distribuidora de pequeno porte, a L&R Kits e Freios é uma das organizações que ainda utiliza o Excel como ferramenta para fazer os seus controles habituais. Diante de todas as características descritas sobre o Excel anteriormente, que são razões para que o mesmo seja substituído por um novo programa, viemos com a proposta de criar uma aplicação WEB a ser implementada na L&R. 
 A aplicação será capaz de emitir orçamentos e fazer controle de estoque da distribuidora com mais flexibilidade e segurança, além de tornar possível cadastrar produtos, cadastrar movimentos de entrada e saída e gerar relatórios, tudo isto em uma ferramenta mais otimizada e segura que o Excel. Por fim, é essencial que esta criação seja capaz de não apresentar as mesmas limitações/problemas do Excel, tornando os processos mais eficientes, a empresa mais sólida e competitiva no mercado.
-1.1. Objetivos geral e específicos
+
+### 1.1. Objetivos geral e específicos
 O objetivo geral do projeto é desenvolver uma aplicação web para otimizar os processos de controle de estoque, emissão de orçamentos e melhorar a segurança dos dados da L&R Kits e Freios, uma pequena distribuidora de peças de freios de caminhão.
 Dentre os objetivos específicos, tem-se:
 Desenvolver uma aplicação web de interface simples e intuitiva, hospedada na nuvem para assegurar a disponibilidade, integridade e segurança dos dados do estoque da empresa e prevenir erros de operação dos usuários.
 Otimizar a geração de pedidos e orçamentos, fazendo a devida integração com o banco de dados do estoque. 
-1.2. Justificativas
-Com a evolução da tecnologia, muitos empreendedores pequenos não conseguem acompanhar as novas ferramentas e soluções para otimização de suas atividades. Diante disso, é necessário a utilização de novos mecanismos para acompanhar a evolução e velocidade do mercado, se adequando às novas tendências. O projeto é necessário para otimizar e melhorar o processo da loja, através da criação de uma nova ferramenta que irá gerir e controlar todas as informações de uma forma mais prática, rápida e segura, sem as limitações do modelo utilizado anteriormente.
-2. Participantes do processo de negócio
+
+### 1.2. Justificativas
+Com a evolução da tecnologia, muitos empreendedores pequenos não conseguem acompanhar as novas ferramentas e soluções para otimização de suas atividades. Diante disso, é necessário a utilização de novos mecanismos para acompanhar a evolução e velocidade do mercado, se adequando às novas tendências. O projeto é necessário para otimizar e melhorar o processo da loja, através da criação de uma nova ferramenta que irá gerir e controlar todas as informações de uma forma mais prática, rápida e segura, sem as limitações do modelo utilizado anteriormente.  
+
+## 2. Participantes do processo de negócio
 Os processos do negócio são realizados pelo dono da empresa, pelos funcionários dos setores administrativo, almoxarifado e vendas, e os processos mapeados foram:
-Compra de mercadorias
+
+### Compra de mercadorias
 A compra de mercadorias é um processo de suporte e garante que o estoque esteja sempre abastecido. O processo ocorre da seguinte maneira:
 
-Contato com o fornecedor e solicitar do orçamento:
+1. **Contato com o fornecedor e solicitar do orçamento:**
 O funcionário do administrativo entra em contato com o fornecedor e envia um orçamento das mercadorias que pretende comprar.
-
-Negociação dos preços:
+2. **Negociação dos preços:**
 O funcionário administrativo negocia o preço das mercadorias com o fornecedor.
-Confirmar compra:
+3. **Confirmar compra:**
 O funcionário do administrativo confirma a compra e realiza o pedido com o fornecedor.
-Receber mercadorias
+4. **Receber mercadorias**
 A funcionária do almoxarifado recebe, contabiliza, e armazena as mercadorias recebidas no estoque.
-
-Registrar entrada no estoque:
+5. **Registrar entrada no estoque:**
 O funcionário do setor administrativo registra a entrada das mercadorias na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel.
 
-Venda de mercadorias
+### Venda de mercadorias
 A venda de mercadorias é um processo primário e a fonte de receita de toda a empresa. O processo ocorre da seguinte maneira:
 
-Contato do cliente com a funcionária do setor de vendas:
+1. Contato do cliente com a funcionária do setor de vendas:
 O cliente entra em contato com o setor de vendas por meio de email, Whatsapp ou telefone, solicitando um orçamento das mercadorias.
 
-Verificar a disponibilidade no estoque:
+2. Verificar a disponibilidade no estoque:
 A funcionária do setor de vendas verifica a disponibilidade e o preço das mercadorias no estoque através de uma planilha no Excel e gera o orçamento solicitado pelo cliente por meio da mesma planilha, utilizando um macro VBA.
-Emitir o orçamento:
+
+1. 3. Emitir o orçamento:
 A funcionária do setor de vendas gera o orçamento solicitado pelo cliente por meio de uma planilha no excel, utilizando um macro VBA.
-Confirmação do pedido:
+
+1. 4. Confirmação do pedido:
 O cliente confirma o pedido e o meio de entrega.
 
-Separação das mercadorias:
+5. Separação das mercadorias:
 A funcionária do almoxarifado separa e embala as mercadorias para a coleta da transportadora.
 
-Registrar saída do estoque:
+6. Registrar saída do estoque:
 Após a confirmação do pedido e separação das mercadorias, o funcionário administrativo realiza o registro do movimento de saída na aba “Registro de movimentos” da planilha “Controle de Estoque” no Excel.
 
-Gerenciamento e monitoramento do estoque
+### Gerenciamento e monitoramento do estoque
 O monitoramento de estoque é um processo gerencial importante para garantir a disponibilidade das mercadorias no estoque e evitar compras desnecessárias. O gerenciamento do estoque na empresa é feito através de uma planilha no Excel. O processo é realizado pelo dono da empresa e pelo funcionário do administrativo, e compreende os seguinte subprocessos:
 
 Cadastro de produtos
