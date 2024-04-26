@@ -11,4 +11,15 @@ Belo Horizonte – MG – Brasil**
 
 ## Resumo 
 *A empresa L&R Kits e Freios é uma pequena distribuidora de peças e kits para freios de caminhão, e estes últimos são montados pela própria organização com as peças que têm em estoque. Para fazer os cadastros e emissão de orçamentos para seus clientes, a L&R utiliza o programa Excel que possui certas limitações, que não deixam o serviço tão efetivo quanto poderia ser, além de não possuir qualquer nível de segurança, assim sendo muito suscetível a erros manuais dos usuários.
-Diante disso, consideramos viável e muito útil criar um projeto de uma aplicação WEB para gerenciar o controle de estoque e geração de orçamentos, de forma otimizada e segura, além de trazer outras possíveis funções e benefícios para a organização em questão. Será possível emitir orçamentos e fazer o controle de estoque com mais agilidade, segurança e efetividade.*
+Diante disso, consideramos viável e muito útil criar um projeto de uma aplicação WEB para gerenciar o controle de estoque e geração de orçamentos, de forma otimizada e segura, além de trazer outras possíveis funções e benefícios para a organização em questão. Será possível emitir orçamentos e fazer o controle de estoque com mais agilidade, segurança e efetividade.*  
+
+## Índice
+* [1 - Introdução](1-Introdução.md)
+	- [1.1 - Objetivos geral e específicos](1-Introdução.md#1.1.-Objetivos-geral-e-específicos)
+	- [1.2 - Justificativas](1-Introdução.md#1.2.-Justificativas)
+* [2 - Participantes do processo do negócio](2-Participantes.md)
+* [3 - Modelagem dos processos do negócio](3-Modelagem.md)
+	- [3.1 - Modelagem da situação atual (Modelagem AS IS)](3-Modelagem.md#3.1.-Modelagem-da-situação-atual-(Modelagem-AS-IS))
+	- [3.2 - Análise dos processos](3-Modelagem.md#3.2.-Análise-dos-processos)
+	- [3.3 - Desenho dos Processos (To Be)](3-Modelagem.md#3.3.-Desenho-dos-Processos-(To-Be))
+* [4 - Projeto da solução](4-Projeto.md)
