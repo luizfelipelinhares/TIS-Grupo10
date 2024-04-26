@@ -9,8 +9,8 @@ Optamos por utilizar prioritariamente as tecnologias, bibliotecas, softwares e f
 Aqui ficará um breve texto sobre os requisitos
 
 ### Requisitos Funcionais
-|  ID	|  Descrição do Requisito	|	Prioridade  |
-|  ---  |  ---  |  ---  |
+|  ID	|  Descrição do Requisito	|
+|  ---  |  ---  |
 |  RF-001  |  Fazer login através de conta microsoft  |
 |  RF-002  |  Visualizar os produtos do estoque  |
 |  RF-003  |  Cadastrar produtos  |
@@ -39,8 +39,8 @@ Aqui ficará um breve texto sobre os requisitos
 |  RF-026  |  Gerar relatório de entradas  |
 
 ### Requisitos não Funcionais
-|  ID	|  Descrição do Requisito	|	Prioridade  |
-|  ---  |  ---  |  ---  |
+|  ID	|  Descrição do Requisito	|
+|  ---  |  ---  |
 |  RF-001  |  Garantir a segurança dos dados  |
 |  RF-001  |  Garantir a segurança dos dados  |
 |  RF-001  |  Garantir a segurança dos dados  |
