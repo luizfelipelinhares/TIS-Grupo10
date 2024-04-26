@@ -11,11 +11,38 @@ Aqui ficará um breve texto sobre os requisitos
 ### Requisitos Funcionais
 |  ID	|  Descrição do Requisito	|	Prioridade  |
 |  ---  |  ---  |  ---  |
-|  RF-000	|	Requisito Funcional 1  |  ALTA  |
-|  RF-001	|	Requisito Funcional 2  |  ALTA  |
+|  RF-001  |  Fazer login através de conta microsoft  |
+|  RF-002  |  Visualizar os produtos do estoque  |
+|  RF-003  |  Cadastrar produtos  |
+|  RF-004  |  Editar produtos  |
+|  RF-005  |  Inativar produtos  |
+|  RF-006  |  Excluir produtos  |
+|  RF-007  |  Cadastrar clientes  |
+|  RF-008  |  Editar clientes  |
+|  RF-009  |  Inativar clientes  |
+|  RF-010  |  Excluir clientes  |
+|  RF-011  |  Cadastrar fornecedores  |
+|  RF-012  |  Editar fornecedores  |
+|  RF-013  |  Inativar fornecedores  |
+|  RF-014  |  Excluir fornecedores  |
+|  RF-015  |  Emitir orçamento de compras  |
+|  RF-016  |  Emitir orçamento de vendas  |
+|  RF-017  |  Registrar movimento de entrada no estoque  |
+|  RF-018  |  Registrar movimento de saída no estoque  |
+|  RF-019  |  Cadastrar kits  |
+|  RF-020  |  Editar kits  |
+|  RF-021  |  Inativar kits  |
+|  RF-022  |  Excluir kits  |
+|  RF-023  |  Criar kits com produtos em estoque  |
+|  RF-024  |  Consultar disponibilidade de produto em estoque  |
+|  RF-025  |  Gerar relatório de saídas  |
+|  RF-026  |  Gerar relatório de entradas  |
 
 ### Requisitos não Funcionais
 |  ID	|  Descrição do Requisito	|	Prioridade  |
 |  ---  |  ---  |  ---  |
-|  RNF-000	|	Requisito Não Funcional 1  |  ALTA  |
-|  RNF-001	|	Requisito Não Funcional 2  |  ALTA  |
+|  RF-001  |  Garantir a segurança dos dados  |
+|  RF-001  |  Garantir a segurança dos dados  |
+|  RF-001  |  Garantir a segurança dos dados  |
+|  RF-001  |  Garantir a segurança dos dados  |
+|  RF-001  |  Garantir a segurança dos dados  |
