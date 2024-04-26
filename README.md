@@ -1,31 +1,24 @@
-# Nome do projeto
+# ERP L&R - Controle de Estoque
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+Projeto de uma ferramenta gerencial para realizar o controle de estoque de uma loja de peças para freios de caminhão.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+- Luiz Felipe Linhares Vieira (lzfdev@gmail.com)
+- Henrique Taite Mendes (henriquetaite@gmail.com)
+- Nathan Filipe Carvalho Cota (nathancarvalhocota@gmail.com)
+- Bruno Alexandre Anastácio De Almeida (brunoanastacio07@gmail.com)
 
 ## Professor
 
-* Nome completo do professor 1
-* Nome completo do professor 2
-* Nome completo do professor 3
+* Cleia Marcia Gomes Amaral
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Assim que a primeira versão do sistema estiver disponível, esta seção irá conter instruções de utilização, instalação de eventuais dependências e sobre como executar a aplicação.
 
 ## Histórico de versões
 
-* 0.1.1
-    * CHANGE: Atualização das documentações. Código permaneceu inalterado.
-* 0.1.0
-    * Implementação da funcionalidade X pertencente ao processo P.
 * 0.0.1
-    * Trabalhando na modelagem do processo de negócio.
+    * Atualização das documentações. Código ainda não está disponível.
 
