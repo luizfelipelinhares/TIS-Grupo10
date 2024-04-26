@@ -13,6 +13,10 @@ Projeto de uma ferramenta gerencial para realizar o controle de estoque de uma l
 
 * Cleia Marcia Gomes Amaral
 
+## Documentação do Projeto
+
+Toda a documentação do projeto está disponível na pata [docs](docs/README.md).  
+  
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, esta seção irá conter instruções de utilização, instalação de eventuais dependências e sobre como executar a aplicação.
