@@ -69,10 +69,10 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 ![Gerar orçamento de compras e vendas](Imagens/Gerar-orcamento-compra-e-vendas.png)
 
 ## RF-018 Registrar movimentos de estoque
-![Registrar movimentos de estoque](https://raw.githubusercontent.com/luizfelipelinhares/TIS-Grupo10/development/docs/Imagens/usecase-movimento.png?token=GHSAT0AAAAAACR2LIAX6XDEGW2PR3SDAFSCZRVKJGQ)
+![Registrar movimentos de estoque](Imagens/usecase-movimento.png)
 
 ## RF-023 Montar kits
-![Montar kits](https://raw.githubusercontent.com/luizfelipelinhares/TIS-Grupo10/development/docs/Imagens/usecase-kits.png?token=GHSAT0AAAAAACR2LIAWIG7U2CP727HETRVQZRVKJPA)
+![Montar kits](Imagens/usecase-kits.png)
 
 
 
