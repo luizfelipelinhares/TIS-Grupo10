@@ -56,13 +56,13 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 
 ### 4.3. Casos de uso
 
-###RF-001
+**RF-001**
 ![Login](https://github.com/luizfelipelinhares/TIS-Grupo10/assets/64663542/995ea9a8-115b-4fe6-816c-7510a8a5860f)
 
-###RF-003
+**RF-003**
 ![Cadastrar, visualizar, editar, excluir](https://github.com/luizfelipelinhares/TIS-Grupo10/assets/64663542/e04c1837-b61d-4f02-9aae-8b7a2e4a95d7)
 
-###RF-005
+**RF-005**
 ![Inativar produtos](https://github.com/luizfelipelinhares/TIS-Grupo10/assets/64663542/128618f5-7e66-48a4-97f0-508a47441ae5)
 
 
