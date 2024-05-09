@@ -74,5 +74,24 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 ## RF-023 Montar kits
 ![Montar kits](Imagens/usecase-kits.png)
 
+# 4.4 Diagrama de Classes
+Em andamento...
 
+# 4.5 Fluxo da Aplicação
+
+1. Acessar o site
+2. Fazer login
+3. Redirecionamento para tela de login da microsoft
+4. Tela Inicial do estoque ( uma tabela com os produtos, códigos, nomes, valores, etc... Também com os botões para fazer as ações:
+5. Cadastrar produto (modal, aqui dentro podemos escolher através de uma chavinha se é kit ou novo produto (mercadoria))
+6. Registrar movimento (nova tela? ou usamos modal?)
+7. Tela do produto ( editar, inativar, etc)
+8. Gerar orçamento (nova tela? ou usamos modal?)
+9. 
+
+# 4.6.1 Telas da aplicação: Protótipos de tela
+Aqui iremos inserir as imagens dos protótipos de tela juntamente com os textos explicativos. Podemos ver com a professora se pode ficar tudo junto ao invés de dois tópicos.
+
+
+# 4.6.1 Telas da aplicação: Texto explicativo
 
