@@ -12,31 +12,24 @@ Os processos identificados abaixo foram escolhidos para otimização por serem p
 Os processos escolhidos para otimização foram modelados abaixo conforme a maneira atual de execução para que os problemas e áreas de melhoria sejam identificados, são eles:
 
 #### Cadastrar produtos
-![CadastrarProdutos](images/bpmn/1.-Cadastrar-Produtos-(As-Is).png)
-Disponível em: https://modeler.cloud.camunda.io/share/c8862ae1-3bd2-4f32-a023-5fe5e1a62b59
+![CadastrarProdutos](images/bpmn/(As-Is)-1-Cadastrar-Produtos.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/70a327f8-1d79-4068-a80b-7f348e93504d)
 
-#### Emitir orçamento para compras
-Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/64af7abf-0015-4886-bb1e-e72ced7e4e59)
-
-#### Emitir orçamento para vendas
-
-Disponível em: https://modeler.cloud.camunda.io/share/435751a7-6a88-4866-8fe6-e6f30cc09402
-
-#### Registrar movimento de entrada no estoque
-
-Disponível em: https://modeler.cloud.camunda.io/share/de838d2d-d5db-4e7f-a9d6-23c237b016da
-
-#### Registrar movimento de saída do estoque
-
-Disponível em: https://modeler.cloud.camunda.io/share/9acb471b-a8f2-45aa-87bf-7aa1900ca944
+#### Registrar movimento no estoque
+![CadastrarProdutos](images/bpmn/(As-Is)-2-Registrar-movimento-no-estoque.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/b060fecb-8e28-41b6-bc2d-dcb4a71d2b13)
 
 #### Verificar disponibilidade no estoque
+![CadastrarProdutos](images/bpmn/(As-Is)-3-Verificar-disponibilidade-no-estoque.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/2e4803af-2fe1-4ba3-8b2e-b94c8032bf88)
 
-Disponível em: https://modeler.cloud.camunda.io/share/d28b60bd-eef1-4de1-9a40-1d2e28f4b8a5
+#### Gerar orçamento
+![CadastrarProdutos](images/bpmn/(As-Is)-4-Gerar-orçamento.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/3319ae55-4aa2-4659-9530-3c96c93719a9)
 
-#### Criar Kits
-
-Disponível em: https://modeler.cloud.camunda.io/share/d7c86aaa-d390-4870-961c-a3917fa3442d
+#### Verificar as fórmulas da planilha
+![CadastrarProdutos](images/bpmn/(As-Is)-5-Verificar-as-formulas-da-planilha.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/9db1e703-689d-45a3-b39f-feb583207d54)
 
 ### 3.2. Análise dos processos
 De acordo com a modelagem "As Is" dos processos acima, diversos problemas foram identificados e podem ser melhorados com a implementação da ferramenta proposta. Os principais problemas identificados foram:  
@@ -70,26 +63,29 @@ As atividades se tornam mais rápidas e diretas pela aplicação web, onde o usu
 
 
 #### Cadastrar produtos
-Disponível em: https://modeler.cloud.camunda.io/share/46fe3f12-68af-474a-9830-ced0e592609d
+![CadastrarProdutos](images/bpmn/(To-Be)-1-Cadastrar-Produtos.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/9c55d229-329e-4f8e-96cc-c29c2e12ec29)
 
-#### Emitir orçamento para compras
-Disponível em: https://modeler.cloud.camunda.io/share/9ea4e7a0-de27-4dac-8c91-90f3a3ca4c70
+#### Cadastrar fornecedores
+![CadastrarProdutos](images/bpmn/(To-Be)-2-Cadastrar-Fornecedores.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/a49c3f41-1cff-4eb2-b77c-5b7e12ed06aa)
 
+#### Cadastrar clientes
+![CadastrarProdutos](images/bpmn/(To-Be)-3-Cadastrar-Clientes.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/c710523f-2b9f-4fc8-844f-1a489c649766)
 
-#### Emitir orçamento para vendas
-Disponível em: https://modeler.cloud.camunda.io/share/92daa343-b4a9-46fb-bc5d-ce404cf7cf4a
+#### Registrar movimento no estoque
+![CadastrarProdutos](images/bpmn/(To-Be)-4-Registrar-movimento-no-estoque.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/ac965f2f-c3f7-4a00-a83f-855b1a4ff396)
 
-#### Registrar movimento de entrada
-Disponível em: https://modeler.cloud.camunda.io/share/0244c5ff-7c87-4e91-ae50-23240c825bc2
+#### Verificar disponibilidade no estoque
+![CadastrarProdutos](images/bpmn/(To-Be)-5-Verificar-disponibilidade-no-estoque.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/b07e6266-5268-4a09-92f7-6fd8510b7ca2)
 
-#### Registrar movimento de saída
-Disponível em: https://modeler.cloud.camunda.io/share/3e9f5bbc-5643-479e-9daa-7734813eb999
+#### Gerar orçamento
+![CadastrarProdutos](images/bpmn/(To-Be)-6-Gerar-orçamento.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/a9d8adeb-42a0-40a5-bba9-4dd1445e7a08)
 
-#### Consulta do histórico de saídas
-Disponível em: https://modeler.cloud.camunda.io/share/714e0aa5-baf1-4d87-a90d-17a9dedeb886
-
-#### Verificar estoque
-Disponível em: https://modeler.cloud.camunda.io/share/0ebc45d3-bed1-4533-a1aa-cbf217308271
-
-#### Criar kits
-Disponível em: https://modeler.cloud.camunda.io/share/1b2a090d-35c2-47b5-a519-dca00eb1339a
+#### Gerar Relatório
+![CadastrarProdutos](images/bpmn/(To-Be)-7-Gerar-relatório.png)
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/ff3c69fa-d6ec-4ecc-9732-b5521eee0a7d)
