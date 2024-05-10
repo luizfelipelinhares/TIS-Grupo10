@@ -12,10 +12,11 @@ Os processos identificados abaixo foram escolhidos para otimização por serem p
 Os processos escolhidos para otimização foram modelados abaixo conforme a maneira atual de execução para que os problemas e áreas de melhoria sejam identificados, são eles:
 
 #### Cadastrar produtos
+![CadastrarProdutos](images/bpmn/1.-Cadastrar-Produtos---As-Is.png)
 Disponível em: https://modeler.cloud.camunda.io/share/c8862ae1-3bd2-4f32-a023-5fe5e1a62b59
 
 #### Emitir orçamento para compras
-Disponível em: https://modeler.cloud.camunda.io/share/64af7abf-0015-4886-bb1e-e72ced7e4e59
+Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/64af7abf-0015-4886-bb1e-e72ced7e4e59)
 
 #### Emitir orçamento para vendas
 
