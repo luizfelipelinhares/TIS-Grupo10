@@ -24,35 +24,25 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 |  ID	|  Descrição do Requisito	|
 |  ---  |  ---  |
 |  RF-001  |  Fazer login através de conta microsoft  |
-|  RF-003  |  Cadastrar, ver, editar e excluir produtos  |
-|  RF-005  |  Inativar produtos  |
-|  RF-007  |  Cadastrar, ver, editar e excluir clientes  |
-|  RF-009  |  Inativar clientes  |
-|  RF-011  |  Cadastrar, ver, editar e excluir fornecedores  |
-|  RF-013  |  Inativar fornecedores  |
-|  RF-015  |  Gerar orçamento de compras  |
-|  RF-016  |  Gerar orçamento de vendas  |
-|  RF-017  |  Registrar movimento de entrada no estoque  |
-|  RF-018  |  Registrar movimento de saída do estoque  |
-|  RF-002  |  Visualizar os produtos do estoque  |
-|  RF-019  |  Cadastrar kits  |
-|  RF-020  |  Editar kits  |
-|  RF-021  |  Inativar kits  |
-|  RF-022  |  Excluir kits  |
-|  RF-023  |  Criar kits com produtos em estoque  |
-|  RF-024  |  Consultar disponibilidade de produto em estoque  |
-|  RF-025  |  Gerar relatório de saídas  |
-|  RF-026  |  Gerar relatório de entradas  |
+|  RF-003  |  Cadastrar, visualizar, editar e excluir produtos  |
+|  RF-004  |  Cadastrar, visualizar, editar e excluir kits de produtos  |
+|  RF-005  |  Inativar produtos e kits |
+|  RF-006  |  Cadastrar, visualizar, editar e excluir fornecedores  |
+|  RF-007  |  Cadastrar, visualizar, editar e excluir clientes  |
+|  RF-008  |  Inativar fornecedores e clientes  |
+|  RF-009  |  Gerar orçamentos de compras e vendas  |
+|  RF-010  |  Registrar movimento de entrada e saída do estoque  |
+|  RF-011  |  Consultar disponibilidade de produtos em estoque  |
+|  RF-012  |  Gerar relatório de entradas e saídas  |
+|  RF-013  |  Gerar relatório de produtos em estoque  |
 
 ### Requisitos não Funcionais
 |  ID	|  Descrição do Requisito	|
-|  ---  |  ---  |
 |  RF-001  |  A ferramenta deve garantir a segurança dos dados  |
 |  RF-002  |  A ferramenta deve ter uma interface simples e intuitiva  |
 |  RF-003  |  A ferramenta deve ser rápida e sem congelamentos  |
 |  RF-004  |  A ferramenta deve ser responsiva  |
 |  RF-005  |  Os dados da ferramenta devem ser armazenados em nuvem  |
-|  RF-006  |  Os dados da ferramenta devem ser armazenados em nuvem  |
 
 # 4.3. Casos de uso
 
