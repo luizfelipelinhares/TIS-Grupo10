@@ -20,6 +20,8 @@ Para o banco de dados vamos utilizar o SQL Server e para fazer a conexão com ba
 Optamos também por utilizar um framework front-end da Microsoft chamado Fluent UI para a estilização da ferramenta por possuir recursos prontos interessantes como menus e tabelas com filtros. Para a publicação da ferramenta, iremos utilizar o Azure App Services.  
 
 # 4.2. Requisitos funcionais e não funcionais
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+
 ### Requisitos Funcionais
 |  ID	|  Descrição do Requisito	|
 |  ---  |  ---  |
