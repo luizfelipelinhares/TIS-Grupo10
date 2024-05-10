@@ -38,6 +38,7 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 
 ### Requisitos não Funcionais
 |  ID	|  Descrição do Requisito	|
+|  ---  |  ---  |
 |  RF-001  |  A ferramenta deve garantir a segurança dos dados  |
 |  RF-002  |  A ferramenta deve ter uma interface simples e intuitiva  |
 |  RF-003  |  A ferramenta deve ser rápida e sem congelamentos  |
