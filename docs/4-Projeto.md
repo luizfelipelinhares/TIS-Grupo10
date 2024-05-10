@@ -66,7 +66,9 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 ![Montar kits](images/usecase/usecase-kits.png)
 
 # 4.4 Diagrama de Classes
-Em andamento...
+Texto descritivo
+
+![DiagramaEntidadeRelacionamento](images/database/entidade-relacionamento.png)
 
 # 4.5 Fluxo da Aplicação
 
