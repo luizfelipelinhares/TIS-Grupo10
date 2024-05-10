@@ -35,6 +35,7 @@ Optamos também por utilizar um framework front-end da Microsoft chamado Fluent 
 |  RF-011  |  Consultar disponibilidade de produtos em estoque  |
 |  RF-012  |  Gerar relatório de entradas e saídas  |
 |  RF-013  |  Gerar relatório de produtos em estoque  |
+|  RF-014  |  Visualizar os movimentos do estoque  |
 
 ### Requisitos não Funcionais
 |  ID	|  Descrição do Requisito	|
