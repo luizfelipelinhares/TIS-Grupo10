@@ -63,29 +63,36 @@ As atividades se tornam mais rápidas e diretas pela aplicação web, onde o usu
 
 
 #### 1. Cadastrar produtos
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão "Novo produto". Ao adicionar o produto, seja ele um kit ou um produto único, deve-se preencher os dados respectivos da opção, e para finalizar clicar no botão "Cadastrar" 
 ![CadastrarProdutos](images/bpmn/(To-Be)-1-Cadastrar-Produtos.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/9c55d229-329e-4f8e-96cc-c29c2e12ec29)
 
 #### 2. Cadastrar fornecedores
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão "Fornecedores". Na aba de fornecedores, deve-se clicar no botão "Novo fornecedor", preencher os dados do mesmo, e finalizar o processo clicando em cadastrar.
 ![CadastrarFornecedores](images/bpmn/(To-Be)-2-Cadastrar-Fornecedores.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/a49c3f41-1cff-4eb2-b77c-5b7e12ed06aa)
 
 #### 3. Cadastrar clientes
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão "Clientes". Na aba de clientes, deve-se clicar no botão "Novo cliente", preencher os dados do mesmo, e finalizar o processo clicando em cadastrar.
 ![CadastrarClientes](images/bpmn/(To-Be)-3-Cadastrar-Clientes.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/c710523f-2b9f-4fc8-844f-1a489c649766)
 
 #### 4. Registrar movimento no estoque
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão de "Registrar movimento", selecionar o movimento desejado, de entrada ou de saída. Para entrada deve-se escolher o tipo de produto (único ou kit), preencher as informações respectivas e clicar em "Registrar Movimento". Para movimento de saída deve-se preencher os dados da saída, selecionar os produtos do movimento, preencher as informações do mesmo e finalizar clicando em "Registrar Movimento"
 ![ResgistrarMovimentoNoEstoque](images/bpmn/(To-Be)-4-Registrar-movimento-no-estoque.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/ac965f2f-c3f7-4a00-a83f-855b1a4ff396)
 
 #### 5. Verificar disponibilidade no estoque
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão de "Produtos", ao acessar a aba, deverá clicar no botão "Filtrar Produto" e escolher qual o filtro desejado, com isso finalizando o processo verificando a disponibilidade após os resultados do filtro.
 ![VerificarDisponibilidadeNoEstoque](images/bpmn/(To-Be)-5-Verificar-disponibilidade-no-estoque.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/b07e6266-5268-4a09-92f7-6fd8510b7ca2)
 
 #### 6. Gerar orçamento
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão de "Gerar orçamento" e selecionar o tipo desejado, de compra ou venda. Para venda deve-se selecionar os produtos solicitados, preencher a quantidade desejada e então verificar a disponibilidade dos mesmos (caso não haja disponibilidade em estoque, encerra o processo), seleciona o cliente do produto, preenche os dados do orçamento, e finaliza clicando em "Concluir". Para processo de compra deve-se selecionar os produtos, preencher as quantidades, selecionar o fornecedor, e após isso preencher os dados do pedido de compra e finalizar clicando em "Concluir".
 ![GerarOrçamento](images/bpmn/(To-Be)-6-Gerar-orçamento.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/a9d8adeb-42a0-40a5-bba9-4dd1445e7a08)
 
 #### 7. Gerar Relatório
+O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão de "Novo relatório", selecionar o tipo do relatório, que pode ser de compra ou venda. Preencher os filtros desejados do relatório (Período, fornecedor, produtos, etc...), e para finalizar clicar em "Gerar Relatório"
 ![GerarRelatório](images/bpmn/(To-Be)-7-Gerar-relatório.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/ff3c69fa-d6ec-4ecc-9732-b5521eee0a7d)
