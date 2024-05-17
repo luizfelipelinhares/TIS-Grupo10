@@ -11,4 +11,4 @@ Analisando os processos no modelo AS IS, podemos perceber que são processos sim
 
 A partir dos problemas de desperdício de tempo identificados no parágrafo anterior, pensamos no ERP – L&R como uma solução que deixaria o fluxo de trabalho da L&R muito mais dinâmico, fluido e fácil. Portanto, a nova ferramenta apresentaria: alta usabilidade, exigindo apenas que o usuário leia o botão com linguagem simples e objetiva, faça uma interpretação e use-o de acordo com a sua demanda; simplificação no uso dos comandos, pois as fórmulas e demais cálculos necessários ficariam prontos como requisitos não funcionais, eliminando qualquer necessidade do usuário gastar tempo para aprender a usar estes recursos; alta integridade nos registros, já que o fluxo mais simples que não necessite da inserção de fórmulas e cálculos deixa estes métodos seguros o suficiente para não serem alterados a qualquer momento.     
 
-[Próximo: 4.1-Tecnologias Utilizadas](4.1-Projeto.md)
+[Próximo: 4.1-Tecnologias Utilizadas](4.1-Tecnologias-utilizadas.md)
