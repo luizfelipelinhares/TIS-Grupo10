@@ -1,12 +1,10 @@
 ## 3. Modelagem do Processo de Negócio
 Os processos identificados abaixo foram escolhidos para otimização por serem processos manuais repletos de retrabalho, com pouca segurança, grande margem de erro, compartilharem da mesma ferramenta (Excel) utilizada para sua execução e possuírem subprocessos comuns entre si que podem ser eliminados e otimizados através da implementação da ferramenta proposta neste trabalho.  
-- **1. Cadastrar de produtos**
-- **2. Emitir orçamento para compras**
-- **3. Emitir orçamento para vendas**
-- **4. Registrar movimento de entrada no estoque**
-- **5. Registrar movimento de saída do estoque**
-- **6. Verificar disponibilidade no estoque**
-- **7. Criar Kits**
+- **1. Cadastrar produtos**
+- **2. Gerar orçamento**
+- **3. Registrar movimento no estoque**
+- **4. Gerar orçamento**
+- **5. Verificar as fórmulas da planilha**
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 Os processos escolhidos para otimização foram modelados abaixo conforme a maneira atual de execução para que os problemas e áreas de melhoria sejam identificados, são eles:
