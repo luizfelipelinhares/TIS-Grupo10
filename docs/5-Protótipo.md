@@ -1,2 +1,145 @@
 # 5.1. Protótipo do produto 
 
+## Login
+![Login](images/fluxo-tela/Login.png)
+Tela de Login simples e intuitiva com a aparência da Microsoft. Basta o usuário entrar com sua conta microsoft e será redirecionado para a página inicial.
+
+## Tela inicial
+![Home](images/fluxo-tela/Home-Page.png)
+Optamos por uma tela inicial que já exibe o estoque com os itens na ordem desejada, assim como um campo para exibir os produtos que estão com o estoque baixo (próximo ou inferior ao estoque mínimo).  
+Também consideramos interessante exibir a quantidade de produtos em estoque e o valor total do Estoque.
+
+# Fornecedores
+## Cadastrar Fornecedores (Botão)
+![Login](images/fluxo-tela/Fornecedores-1.png)
+Para cadastrar um novo fornecedor, basta clicar no botão Fornecedores e então clicar em Cadastrar Fornecedor. Será aberto um Modal com os campos a serem preenchidos.
+
+## Cadastrar Fornecedores (Cadastro PJ)
+![Login](images/fluxo-tela/Fornecedores-2.png)
+Optamos por um modal nas telas de cadastro para ganhar tempo e evitar mudanças de telas, uma vez que este pode ser reutiliado em outros ambientes da ferramenta e não exige uma mudança imediata para qualquer página de visualização do fornecedor após seu cadastro.  
+O Modal possui uma chave para selecionar se o fornecedor cadastrado é pessoa física ou jurídica, com a finalidade de exibir os campos conforme o tipo de cadastro, uma vez que pessoas físicas possuem CPF ao invés de CNPJ e não possuem Inscriçao Estadual.
+
+## Cadastrar Fornecedores (Cadastro PF)
+![Login](images/fluxo-tela/Fornecedores-3.png)
+Exemplo do Modal com a chave de seleção para pessoas físicas (CPF) selecionada.
+
+## Cadastro de Fornecedores (Botão)
+![Login](images/fluxo-tela/Fornecedores-4.png)
+Para visualizar todos os fornecedores cadastrados, basta clicar no botão fornecedores e então clicar em Gerenciar Fornecedores.  
+O usuário será redirecionado para uma tela com uma tabela de fornecedores cadastrados.
+
+## Cadastro de Fornecedores (Tela)
+![Login](images/fluxo-tela/Fornecedores-5.png)
+A tabela com os fornecedores cadastrados possui campos para filtro rápido, em que os resultados da tabela são atualizados conforme o usuário digita os valores nos campos de busca.  
+Ao clicar no cadastro de um fornecedor, o usuário será redirecionado para a tela de detalhes do fornecedor.
+
+## Editar, Inativar, Excluir e Visualizar Fornecedor
+![Login](images/fluxo-tela/Fornecedores-6.png)
+Na tela de Detalhes do fornecedor, o usuário pode editar as informações do fornecedor (apenas os campos editáveis, não os calculados), inativar ou excluir o cadastro.  
+Não é possível excluir um fornecedor uma vez que existem movimentos (entradas e/ou saídas) vinculadas ao fornecedor.
+Também é exibida uma tabela com os pedidos relacionados ao fornecedor.
+
+# Clientes
+As tela de cadastro de Clientes são exatamente iguais as telas de cadastro dos Fornecedores, pois estes possuem os mesmos campos de preenchimento e os dados armazenados no sistema são similares.
+
+## Cadastrar Clientes (Botão)
+![Login](images/fluxo-tela/Clientes-1.png)
+Para cadastrar um novo cliente, basta clicar no botão Clientes e então clicar em Cadastrar Cliente. Será aberto um Modal com os campos a serem preenchidos.
+
+## Cadastrar Clientes (Cadastro PJ)
+![Login](images/fluxo-tela/Clientes-2.png)
+Tela com o Modal de cadastro de Clientes PJ. Os campos são os mesmos do cadastro de Fornecedores.
+
+## Cadastrar Clientes (Cadastro PF)
+![Login](images/fluxo-tela/Clientes-3.png)
+Tela com o Modal de cadastro de Clientes PF. Os campos são os mesmos do cadastro de Fornecedores.
+
+## Cadastro de Clientes (Botão)
+![Login](images/fluxo-tela/Clientes-4.png)
+Para visualizar os clientes cadastrados o usuário precisa clicar em Clientes, e então em Gerenciar Clientes. Será exibida uma tabela com os cadastros dos clientes.
+
+## Cadastro de Clientes (Tela)
+![Login](images/fluxo-tela/Clientes-5.png)
+A tabela com os clientes cadastrados também possui campos para filtro rápido, em que os resultados da tabela são atualizados conforme o usuário digita os valores nos campos de busca.  
+Ao clicar no cadastro de um cliente, o usuário será redirecionado para a tela de detalhes do cliente.
+
+
+## Editar, Inativar, Excluir e Visualizar Cliente
+![Login](images/fluxo-tela/Clientes-6.png)
+Na tela de Detalhes do cliente, o usuário pode editar as informações do cliente (apenas os campos editáveis, não os calculados), inativar ou excluir o cadastro.  
+Não é possível excluir um cliente uma vez que existem movimentos (entradas e/ou saídas) vinculadas ao cliente.
+Também é exibida uma tabela com os pedidos relacionados ao cliente.
+
+# Produtos
+## Cadastrar produtos (Botão)
+![Produtos](images/fluxo-tela/Produtos-1.png)
+Para cadastrar novos produtos, o usuário deve clicar em Produtos e então clicar em Novo Produto. Será aberto um Modal com os campos que devem ser preenchidos.
+
+## Cadastrar produtos (Produto Simples)
+![Produtos](images/fluxo-tela/Produtos-2.png)
+Para cadastrar um produto simples, o usuário precisa preencher todos os campos e clicar em Cadastrar.
+
+## Cadastrar produtos (Kit - 1)
+![Produtos](images/fluxo-tela/Produtos-3.png)
+Para cadastrar Kits, o usuário precisa selecionar a chave do tipo de produto "Kit", e então preencher todos os campos, além de selecionar os produtos (já cadastrados no estoque) que irão compor o Kit.
+
+## Cadastrar produtos (Kit - 2)
+![Produtos](images/fluxo-tela/Produtos-4.png)
+Tela para seleção dos produtos que irão compor o Kit, com um campo de busca para facilitar a seleção.
+
+## Detalhes do Produto (Produto Simples)
+![Produtos](images/fluxo-tela/Produtos-5.png)
+Tela de detalhes do produto, onde é possível editar, excluir e inativar os produtos.
+Também é possível ver os fornecedores e clientes do produto, assim como os movimentos do produto em uma tabela com várias informações.
+
+# Pedidos de Compra
+## Novo Pedido de Compra (Botão)
+![Pedidos](images/fluxo-tela/Pedidos-Compra-1.png)
+Para cadastrar um novo pedido de compra, o usuário deve clicar em Pedido de Compra, e então em Novo Pedido.
+O usuário será redirecionado para uma tela de cadastro do pedido.
+
+## Novo Pedido de Compra (Cadastro)
+![Pedidos](images/fluxo-tela/Pedidos-Compra-2.png)
+Na tela de cadastro de pedido, o usuário deve preencher as informações do pedido e selecionar os produtos e quantidades que irão compor o pedido.
+Não é necessário preencher o preço dos produtos, pois estes são preenchidos pelos fornecedores ao receberem o pedido.
+Ao clicar em Gerar Pedido, é feito o download de uma planilha do Excel com as informações do pedido, e o pedido é salvo no sistema com o status de "Em Aberto".
+Ao clicar em Concluir pedido, os dados do pedido são processados e os produtos são incrementados no estoque.
+
+## Lista dos Pedidos de Compra (Tela)
+![Pedidos](images/fluxo-tela/Pedidos-Compra-3.png)  
+Aqui na tela de Lista dos Pedidos de Compra, o usuário clica em uma opção como forma dele poder digitar a característica do pedido de compra e encontrá-lo. No resultado da pesquisa, vão constar a data que foi realizado o pedido, seu status, seu número, código do usuário que realizou e seu respectivo nome. Assim é possível visualizar em tempo real a situação de cada compra.
+
+# Pedidos de Venda
+## Novo Pedido de Venda (Botão)
+![Pedidos](images/fluxo-tela/Pedidos-Venda-1.png)  
+Tela onde o usuário clica em "Pedidos", "Pedidos de venda" e "Novo pedido", afim de registrar um novo pedido de venda que foi confirmado entre a distribuidora e o cliente.
+
+## Novo Pedido de Venda (Cadastro)
+![Pedidos](images/fluxo-tela/Pedidos-Venda-2.png)  
+Aqui o usuário tem à disposição todos os campos necessários para registrar o pedido confirmado, de forma a ter um controle total de todas as demandas do cliente.
+
+## Lista dos Pedidos de Venda (Tela)
+![Pedidos](images/fluxo-tela/Pedidos-Venda-3.png)  
+Na Lista dos Pedidos de Venda, o usuário clica em uma opção como forma dele poder digitar a característica do pedido de venda e encontrá-lo. No resultado da pesquisa, vão constar a data que foi realizado o pedido, seu status, seu número, código do usuário que realizou e seu respectivo nome. Assim é possível visualizar em tempo real a situação de cada venda.
+
+# Relatórios
+Optamos por um modal simples para gerar relatórios de entradas, saídas e produtos em estoque.
+
+## Relatórios (Botão)
+![Relatorios](images/fluxo-tela/Relatorios-1.png)  
+Para gerar o relatório, o usuário deve clicar no botão Relatórios. Após isso será exibido um Modal com os campos de filtro.
+
+# Relatório (Modal)
+![Relatorios](images/fluxo-tela/Relatorios-2.png)  
+Modal com os filtros e botões para gerar os relatório (filtros de data, apenas), e botão para selecionar o tipo do relatório.
+Ao clicar em Gerar, é feito o download de uma planilha do excel com as informações do relatório.
+
+# Relatório (Modal)
+![Relatorios](images/fluxo-tela/Relatorios-3.png)  
+Exemplo do botão de selecionar o modelo do relatório.
+
+# Logout (Botão)
+![Logout](images/fluxo-tela/Logout.png)
+Para fazer o Logout, o usuário deve clicar no botão com o seu nome, e então clicar em Sair.
+
+
