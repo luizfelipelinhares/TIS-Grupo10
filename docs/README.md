@@ -14,9 +14,9 @@ Belo Horizonte – MG – Brasil**
 Diante disso, consideramos viável e muito útil criar um projeto de uma aplicação WEB para gerenciar o controle de estoque e geração de orçamentos, de forma otimizada e segura, além de trazer outras possíveis funções e benefícios para a organização em questão. Será possível emitir orçamentos e fazer o controle de estoque com mais agilidade, segurança e efetividade.*  
 
 ## Índice
-* [1 - Introdução](1-Introdução.md)
-	- [1.1 - Objetivos geral e específicos](1-Introdução.md#1.1.-Objetivos-geral-e-específicos)
-	- [1.2 - Justificativas](1-Introdução.md#1.2.-Justificativas)
+* [1 - Introdução](1-Introducao.md)
+	- [1.1 - Objetivos geral e específicos](1-Introducao.md#1.1.-Objetivos-geral-e-específicos)
+	- [1.2 - Justificativas](1-Introducao.md#1.2.-Justificativas)
 * [2 - Participantes do processo do negócio](2-Participantes.md)
 * [3 - Modelagem dos processos do negócio](3-Modelagem.md)
 	- [3.1 - Modelagem da situação atual (Modelagem AS IS)](3-Modelagem.md#3.1.-Modelagem-da-situação-atual-(Modelagem-AS-IS))
@@ -27,5 +27,11 @@ Diante disso, consideramos viável e muito útil criar um projeto de uma aplica�
   	- [4.2 - Requisitos](4.2-Requisitos.md)
   	- [4.3 - Casos-de-uso](4.3-Casos-de-uso.md)
   	- [4.4 - Banco-de-dados](4.4-Banco-de-dados.md)
-  	- [4.5 - Fluxo-da-aplicação](4.5-Fluxo-da-aplicação.md)
-  	- [4.6 - Telas-da-aplicação](4.6-Telas-da-aplicação.md)
+  	- [4.5 - Fluxo-da-aplicação](4.5-Fluxo-da-aplicacao.md)
+  	- [4.6 - Telas-da-aplicação](4.6-Telas-da-aplicacao.md)
+* [5 - Protótipo](5.1-Prototipo.md)
+    - [5.1 - Protótipo da Aplicação](5.1-Prototipo.md)
+    - [5.2 - Indicadores e objetivos do negócio](5.2-Indicadores-e-objetivos-do-negocio.md)
+    - [5.3 - Planejamento da implantação do produto](5.3-Planejamento-da-implantacao-do-produto.md)
+    - [5.4 - Usuários](5.4-Usuarios.md)
+* [6 - Conclusão](6-Conclusao.md)

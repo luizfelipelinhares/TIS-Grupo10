@@ -94,3 +94,5 @@ Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/a9d8adeb
 O usuário deve acessar o site da ferramenta, e caso não esteja logado, realizar o login, e a seguir clicar no botão de "Novo relatório", selecionar o tipo do relatório, que pode ser de compra ou venda. Preencher os filtros desejados do relatório (Período, fornecedor, produtos, etc...), e para finalizar clicar em "Gerar Relatório"
 ![GerarRelatório](images/bpmn/(To-Be)-7-Gerar-relatório.png)
 Disponível online em: [Camunda](https://modeler.cloud.camunda.io/share/ff3c69fa-d6ec-4ecc-9732-b5521eee0a7d)
+
+[Próximo: 4 - Projeto da Solução](4-Projeto-da-solucao.md)
