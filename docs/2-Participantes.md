@@ -51,3 +51,5 @@ A funcionária do almoxarifado separa Kits com as mercadorias disponíveis no es
 
 3. **Verificar o estoque**  
 O dono da empresa e o funcionário do setor administrativo monitoram a quantidade de mercadorias disponíveis no estoque, utilizando a aba “Estoque” da planilha “Controle de Estoque” no Excel para verificar se é necessário abastecer o estoque.
+
+[Próximo: 3 - Modelagem](3-Modelagem.md)

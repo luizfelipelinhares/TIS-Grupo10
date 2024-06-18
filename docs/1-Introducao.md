@@ -12,3 +12,5 @@ Otimizar a geração de pedidos e orçamentos, fazendo a devida integração com
 
 ### 1.2. Justificativas
 Com a evolução da tecnologia, muitos empreendedores pequenos não conseguem acompanhar as novas ferramentas e soluções para otimização de suas atividades. Diante disso, é necessário a utilização de novos mecanismos para acompanhar a evolução e velocidade do mercado, se adequando às novas tendências. O projeto é necessário para otimizar e melhorar o processo da loja, através da criação de uma nova ferramenta que irá gerir e controlar todas as informações de uma forma mais prática, rápida e segura, sem as limitações do modelo utilizado anteriormente.  
+
+[Próximo: 2 - Participantes](2-Participantes.md)
