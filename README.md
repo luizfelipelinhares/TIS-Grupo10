@@ -1,6 +1,6 @@
 # ERP L&R - Controle de Estoque
 
-Projeto de uma ferramenta gerencial para realizar o controle de estoque de uma loja de peças para freios de caminhão.
+A empresa L&R Kits e Freios é uma pequena distribuidora de peças e kits para freios de caminhão, e estes últimos são montados pela própria organização com as peças que têm em estoque. Para fazer os cadastros e emissão de orçamentos para seus clientes, a L&R utiliza o programa Excel que possui certas limitações, que não deixam o serviço tão efetivo quanto poderia ser, além de não possuir qualquer nível de segurança, assim sendo muito suscetível a erros manuais dos usuários. Diante disso, considerou-se viável e muito útil desenvolver uma aplicação WEB para gerenciar o estoque de forma otimizada e segura, a fim de otimizar os processos do cliente, aumentar a segurança das informações e facilitar a tomada de decisões estratégicas. Durante o projeto desenvolveu-se uma aplicação web segura e eficiente utilizando as tecnologias Microsoft: Blazor, SQL Server e Azure App Services. A ferramenta solucionou os problemas de concorrência colaborativa, segurança e integridade dos dados, além de otimizar os processos do cliente e gerar indicadores estratégicos para uma melhor gestão do estoque. 
 
 ## Integrantes
 
