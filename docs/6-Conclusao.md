@@ -1,13 +1,13 @@
 # 6. Conclusão
 
-Com base no desenvolvimento do trabalho sobre as aplicações para processos de negócios da empresa L&R Kits e Freios, a melhoria dos processos por meio da implementação de novas tecnologias e ferramentas apresentará resultados significativos. 
+### Objetivo inicial do projeto
+O objetivo inicial do projeto foi criar uma aplicação WEB para a empresa L&R Kits e Freios. Esta aplicação ajudaria a gerenciar o controle de estoque e a geração de orçamentos, substituindo o uso de planilhas Excel. A meta era modernizar e melhorar os processos da empresa, tornando a gestão de estoque mais eficiente.
 
-A empresa obterá benefícios como uma gestão de estoque mais eficiente, redução de custos operacionais, agilidade nos processos e análise de desempenho mais precisa. 
+### Resumo do que foi feito
+Durante o projeto, foi feita uma análise dos processos atuais de controle de estoque e orçamentos. Com base nessa análise, foi desenvolvida uma aplicação WEB personalizada para atender às necessidades da empresa. A aplicação inclui funções para controle de estoque, cadastro de produtos, geração de orçamentos e relatórios de desempenho. Foram realizados testes para garantir que a aplicação funcionasse bem e fosse eficiente.
 
-Além disso, a segurança dos dados, a integridade das informações e a competitividade no mercado serão fortalecidas, contribuindo para um ambiente de negócios mais sólido e promissor.
+### Problemas ou dificuldades enfrentados
+O grupo enfrentou algumas dificuldades durante o projeto. A adaptação dos novos processos dentro da aplicação exigiu garantir que fossem eficientes e fáceis de usar. Houve desafios na modelagem de casos de uso para entender as necessidades e rotinas dos colaboradores. A identificação dos produtos a serem incluídos no banco de dados demandou uma análise detalhada do inventário. Além disso, a modelagem do banco de dados para cadastrar produtos de kits de freios no estoque foi difícil devido à complexidade e variedade dos produtos.
 
-No entanto, é importante discutir as limitações da solução proposta. A implementação de novas tecnologias poderá demandar investimentos iniciais significativos, tanto em termos financeiros quanto em recursos humanos para treinamento e adaptação. Além disso, a transição para um novo sistema poderá gerar resistência por parte dos colaboradores, o que poderá impactar a eficácia da implementação e a aceitação da mudança.
-
-Para futuras linhas de estudo, sugere-se a realização de um acompanhamento contínuo dos processos implementados, a fim de avaliar a eficácia das soluções adotadas e identificar possíveis áreas de melhoria. 
-
-Em resumo, a melhoria dos processos na L&R Kits e Freios por meio da implementação de novas tecnologias trará benefícios significativos, mas é fundamental estar atento às limitações e desafios que poderão surgir. A busca por inovação e a constante avaliação e aprimoramento dos processos serão essenciais para garantir o crescimento e a sustentabilidade do negócio no longo prazo.
+### Próximos passos ou possibilidades futuras
+Para o futuro, o projeto prevê a integração da aplicação com o sistema financeiro da empresa, permitindo uma gestão mais completa e automatizada dos recursos. Também está planejado o lançamento da aplicação para mais usuários, aumentando seu impacto positivo nas operações da empresa. Além disso, haverá uma avaliação contínua dos processos implementados para encontrar áreas de melhoria e garantir que a aplicação continue atendendo às necessidades da empresa de forma eficiente.
